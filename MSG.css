@@ -112,6 +112,27 @@ button:active, input[type="button"]:active, input[type="submit"]:active {
     height: 0;
 }
 
+/* table */
+table {
+    width: 100%;
+    text-align: right;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 2px #333;
+    border-style: solid none;
+}
+th {
+    text-align: left;
+}
+thead, th {
+    font-weight: 700;
+}
+td:nth-child(even) {
+    background-color: rgba(200, 200, 220, 0.1);
+}
+td {
+    padding: 3px 0;
+}
 
 /* bonus matirial */
 .loading {
