@@ -1,0 +1,113 @@
+/* document */
+body {
+    margin: 0;
+    border-color: #aaa;
+    color: #111;
+    background-color: #fff;
+    font-family: sans;
+    font-size: 1em;
+}
+
+/* base-elements */
+a {
+    color: inherit;
+}
+a:hover {
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.3rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+h5 {
+    font-size: 1.1rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    border-color: inherit;
+    z-index: 100;
+    position: relative;
+    background-color: inherit;
+}
+nav.left {
+    justify-content: flex-start;
+}
+nav.right {
+    justify-content: flex-end;
+}
+nav a {
+    margin: 0.5rem 0.25rem;
+}
+
+/* structure */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article {
+    margin: 1rem;
+}
+
+/* inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-color: inherit;
+}
+form > * {
+    margin: 0.5rem 0.85rem 0 0.85rem;
+}
+input {
+    width: 100%;
+    margin: 0.1rem auto;
+    border: 1px solid #aaa;
+    padding: 0.5rem 0;
+    border-radius: 0.3rem;
+}
+input:focus {
+    outline: 1px solid green;
+}
+input:not(:placeholder-shown):invalid {
+    outline: 1px solid red;
+}
+button, input[type="button"], input[type="submit"] {
+    width: auto;
+    align-self: end;
+    margin: 0.3rem 0.85rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #abb;
+    color: inherit;
+    font-weight: 900;
+    cursor: pointer;
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #bcc;
+}
+button:active, input[type="button"]:active, input[type="submit"]:active {
+    background-color: #cdd;
+}
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
