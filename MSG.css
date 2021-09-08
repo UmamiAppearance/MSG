@@ -111,3 +111,23 @@ button:active, input[type="button"]:active, input[type="submit"]:active {
     visibility: hidden;
     height: 0;
 }
+
+
+/* bonus matirial */
+.loading {
+    display: inline-block;
+    border: #333 3px;
+    border-style: solid dashed; 
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+    border-radius: 20px;
+    animation: loading 1s cubic-bezier(.6,-0.28,.74,.05) infinite
+}
+@keyframes loading {
+    from { 
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+}
