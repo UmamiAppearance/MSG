@@ -133,6 +133,13 @@ td:nth-child(even) {
 td {
     padding: 3px 0;
 }
+code {
+    white-space: break-spaces;
+    display: block;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    background-color: #abb;
+}
 
 /* bonus matirial */
 .loading {
