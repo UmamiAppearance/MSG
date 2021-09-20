@@ -113,6 +113,9 @@ select, textarea {
     padding: 10px;
     background-color: #fff;
 }
+select:focus, textarea:focus, input:focus {
+    outline: 2px solid #000;
+}
 .hidden {
     visibility: hidden;
     height: 0;
