@@ -67,7 +67,7 @@ nav a {
         background-repeat: no-repeat, repeat;
         background-size: 1.8em, 100%;
     }
-    nav:focus, nav:active {
+    nav.active, nav:active {
         height: auto;
     }
     nav a {
