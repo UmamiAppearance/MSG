@@ -63,7 +63,7 @@ nav a {
         overflow: hidden;
         height: 2.8rem;
     }
-    nav:focus {
+    nav:focus, nav:active {
         height: auto;
     }
     nav a {
