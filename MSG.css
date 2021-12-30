@@ -61,9 +61,15 @@ nav a {
     nav {
         flex-direction: column;
         overflow: hidden;
+        height: 2.8rem;
     }
     nav:focus {
         height: auto;
+    }
+    nav a {
+        width: 50%;
+        font-size: 1.4rem;
+        font-weight: bold;
     }
 }
 
