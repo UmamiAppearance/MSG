@@ -57,6 +57,16 @@ nav.right {
 nav a {
     margin: 0.5rem 0.25rem;
 }
+@media (orientation: portrait) {
+    nav {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    nav:focus {
+        height: auto;
+    }
+}
+
 
 /* structure */
 section {
@@ -160,7 +170,7 @@ code {
     background-color: #abb;
 }
 
-/* bonus matirial */
+/* bonus material */
 .loading {
     display: inline-block;
     border: #333 3px;
